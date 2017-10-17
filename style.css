@@ -1,0 +1,32 @@
+#GoogleLogo {
+  background-size: 272px 92px;
+  height: 92px;
+  width: 300px;
+  margin: 200px auto 50px auto;
+}
+
+#country {
+  color: #4285f4;
+  font-family: Helvetica;
+  float: right;
+  margin-top: -20px;
+}
+
+#searchform {
+height: 400px;
+width: 500px;
+margin: 50px auto;
+}
+
+#searchbar {
+  width: 500px;
+  padding: 10px;
+  margin-top: 10px;
+  display: block;
+
+}
+
+.button {
+  margin-top: 20px;
+  position: relative;
+}
