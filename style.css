@@ -1,8 +1,15 @@
+#profile {
+  font-family: Helvetica;
+  font-weight: 300;
+  font-size: small;
+  text-align: right;
+}
+
 #GoogleLogo {
   background-size: 272px 92px;
   height: 92px;
   width: 300px;
-  margin: 200px auto 50px auto;
+  margin: 200px auto 30px auto;
 }
 
 #country {
@@ -14,17 +21,23 @@
 
 #searchform {
   height: 120px;
-  width: 500px;
+  width:559px;
   margin: auto;
   text-align: center;
 }
 
 #searchbar {
-  width: 500px;
-  height: 40px;
-  border: 1px solid #757575;
+  width: 559px;
+  height: 34px;
+  padding: 5px;
+  border: 1px solid #cecece;
   margin-top: 10px;
   display: block;
+  box-shadow: 0 2px 3px #cecece;
+}
+
+#searchbar:hover {
+  box-shadow: 0 4px 3px #cecece;
 }
 
 .l_button,.r_button {
